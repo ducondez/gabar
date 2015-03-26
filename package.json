@@ -1,0 +1,40 @@
+{
+  "name": "gabar",
+  "version": "0.0.1",
+  "description": "Foundation Library for AngularJS Apps",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ducondez/gabar.git"
+  },
+  "keywords": [
+    "gabar",
+    "angularjs",
+    "foundation"
+  ],
+  "author": "Danniel Condez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ducondez/gabar/issues"
+  },
+  "homepage": "https://github.com/ducondez/gabar",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-babel": "^4.0.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-karma": "0.0.4",
+    "gulp-mocha": "^2.0.0",
+    "gulp-watch": "^4.2.0",
+    "jasmine-core": "^2.2.0",
+    "karma": "^0.12.31",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-jasmine": "^0.3.5",
+    "karma-phantomjs-launcher": "^0.1.4"
+  }
+}
