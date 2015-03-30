@@ -24,11 +24,11 @@ gulp.task('test', function (done) {
 });
 
 gulp.task('watch', function () {
-  watch(['src/**/*.js', 'test/**/*.js'],  function () {
-    karma.start({
-      configFile: __dirname + '/karma.conf.js',
-      singleRun: false
-    });
+  karma.start({
+    configFile: __dirname + '/karma.conf.js',
+    singleRun: false
+  });
+  watch(['src/**/*.js'],  function () {
     gulp.run('babel');
   });
 });
